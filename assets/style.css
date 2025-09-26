@@ -19,12 +19,14 @@ img {
   background-image: url("banner.jpg");
   background-size: cover;
   height: 360px;
+  border-bottom: grey;
 }
 h1,
 h2,
 h3 {
   color: #25a2c3;
   font-weight: lighter;
+  font-weight: bold;
 }
 .arancio {
   border: solid 1px #f04c2f;
@@ -59,7 +61,7 @@ h3 {
   background-size: contain;
   height: 166px;
   width: 166px;
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -71,7 +73,6 @@ h3 {
   color: white;
   padding-top: 34px;
   margin-top: 39px;
-  
 }
 
 #mario {
@@ -80,4 +81,47 @@ h3 {
 b {
   font-size: 21px;
   font-weight: bold;
+}
+
+#pc {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+div img {
+  width: 368px;
+}
+
+.bordo {
+  border: solid 1px lightgray;
+  margin-top: 55px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding-top: 30px;
+  margin-top: 70px;
+}
+
+ul {
+  list-style: none;
+  line-height: 24px;
+  height: 261px;
+}
+a {
+  color: white;
+}
+#fine {
+  border-top: white 1px solid;
+  padding-top: 35px;
+  margin-right: 120px;
+  margin-left: 120px;
+  font-size: 11px;
+  margin-top: -121px;
+  padding-bottom: 22px;
+  margin-bottom: auto;
 }
